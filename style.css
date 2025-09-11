@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(101, 148, 148);
+}
+
+section {
+    /* border: 5px solid black; */
+}
+
+
+.Video-Rapper {
+    background-color: rgb(108, 158, 175);
+    padding: 20PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-1 {
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.video-2 {
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+.video-3 {
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Audio-Rapper {
+    display: flex;
+    align-items: center;
+}
+
+.videoh1 {
+    text-align: center;
+    margin: 30px;
+    text-transform: capitalize;
+}
+
+.audioh1 {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 50px;
+}
+
+.Audio-Rapper {
+    background-color: rgb(108, 158, 175);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+}
+
+
+.audio-1,
+.audio-2,
+.audio-3 {
+    margin-right: 250px;
+}
+
+
+iframe {
+    margin-top: 20px;
+}

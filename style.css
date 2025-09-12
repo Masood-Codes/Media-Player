@@ -19,7 +19,7 @@ section {
     padding: 20PX;
     display: flex;
     justify-content: space-between;
-    gap:10px;
+    /* gap: 10px; */
 }
 
 .video-1 {
@@ -80,5 +80,3 @@ section {
 iframe {
     margin-top: 20px;
 }
-
-
